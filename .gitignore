@@ -37,3 +37,4 @@ token.js
 
 #do not commit editor config files
 .ideanode_modules/
+node_modules/
