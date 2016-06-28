@@ -18,7 +18,9 @@ var NorrisBot = require('../lib/norrisbot');
  *  BOT_DB_PATH: the path of the SQLite database used by the bot
  *  BOT_NAME: the username you want to give to the bot within your organisation.
  */
- process.env['BOT_API_KEY'] = "xoxb-53071624944-Gg6vDEQMrVWer9oD9XKMVULK"
+ process.env['BOT_API_KEY'] = 'xoxb-55110450736-2e2ZSgFpHMnIcShMpR0HR0gN'
+ console.log(process.env.BOT_API_KEY)
+
  var token = process.env.BOT_API_KEY;
  var dbPath = process.env.BOT_DB_PATH;
  var name = process.env.BOT_NAME;
